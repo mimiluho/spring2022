@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <h1>Events.html</h1>
+      
+  <head>
+    <meta charset="utf-8">
+    <title>Mimi's Events Page</title>
+    <script>
+  function showAlert() {
+    var myText = "This Page has loaded";
+    alert (myText);
+  }
+  </script>
+  </head>
+  
+  <body onload="showAlert()">
+    
+
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "The button was clicked";
+}
+</script>
+  </body>
+</html>
