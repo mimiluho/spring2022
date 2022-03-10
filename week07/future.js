@@ -6,7 +6,7 @@ var petname = ["Perry","Mochi","Pumpkin","Snorlax"];
 var xx = Math.floor(Math.random() * 4 )
 
 function fortune(time,idk,pet,petname){
-document.write("In " + time + " you will be a" + idk + ", with a pet " + pet + " named " + petname + ".");
+document.write("In " + time + " you will be " + idk + ", with a pet " + pet + " named " + petname + ".");
 }
 
 fortune (time[xx],idk[xx],pet[xx],petname[xx])
