@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    font-family: "Georgia", serif;
+    color: #000000;
+    line-height: 140%;
+    margin: 25px 50px 75px 100px;
+    background-image: url("page-bg.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #d1c6e4de;
+}
+
